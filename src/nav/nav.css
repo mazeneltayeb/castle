@@ -1,0 +1,29 @@
+
+
+.nav{
+    background-color: transparent;
+    z-index: 99999;
+    position: sticky;
+    
+}
+
+.nav ul li {
+margin-left:4rem ;
+    color: white;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight:500;
+}
+.logo img{
+    width: 50px;
+    border: 2px solid #F8B20F;
+    padding: 1px
+}
+.nav .gallerylink{
+    color:  white ;
+    background-color: #F8B20F;
+    border-radius: 20px;
+    
+}

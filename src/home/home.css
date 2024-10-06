@@ -1,0 +1,96 @@
+/* banner */
+.banner{
+    background-image:url(./img/download_11zon.copy.png) ;
+    min-height: 80vh;
+    width: 100dvw;
+    /* background-image: linear-gradient(rgba(376, 255, 300, -6.5), rgba(255, 255, 255, 0.5)), url(./img/download_11zon.copy.png);    */
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    top: -66px;
+    position: relative;
+}
+
+.bannertext :last-child{
+ color:#F8B20F
+}
+/* banner */
+
+/* sectionone */
+.sectionone img{
+    height: 300px;
+    width: 60dvw;
+}
+.sectionone .ready :first-child ,.sectionone .ready :last-child{
+    position: relative;
+    z-index: 2;
+    color: white;
+    width: fit-content;
+}
+.sectionone .ready :first-child::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    background-color: #F8B20F;
+    transform: rotate(3deg);
+    left: -8%;
+}
+.sectionone .ready :last-child::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 115%;
+    height: 110%;
+    background-color: #F8B20F;
+    transform: rotate(-5deg);
+    left: -2%;
+}
+
+.sectionone .price :last-child{
+    border: 2px solid #F8B20F ;
+    border-radius: 20px;
+    width: fit-content; 
+}
+
+@media  (width <  768px) {
+    .sectionone img{
+        width: 100dvw;
+    }
+    
+}
+/* sectionone */
+
+.sectiontwo{
+    background-color: #f4f3f2;
+    z-index: -1;
+    color: #374254;
+}
+.experience{
+    border: 7px solid #F8B20F;
+    position: relative;
+    z-index: 1;
+    width: 200px;
+}
+.experience > div::before{
+    content: "";
+    position: absolute;
+    background-color: #f4f3f2;
+    border-radius:50% ;
+    width: 180px;
+    height: 180px;
+    z-index: -2;
+}
+.experienceyears{
+    font-size: 52px;
+    font-weight: 700;
+    color: #F8B20F;
+}
+.orangcolor{
+    color: #F8B20F;
+}
+/* .sectiontwo .experience > div :nth-child(2){
+    color: #F8B20F;
+    font-weight: 700;
+} */
