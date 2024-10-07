@@ -1,4 +1,5 @@
 import Banner from "./banner";
+import TeamSlider from "./ProductSlider";
 import SectionOne from "./sectionone";
 import SectionTwo from "./sectionTwo";
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
         <Banner/>
         <SectionOne/>
         <SectionTwo/>
+        <TeamSlider/>
         <div>home page</div>
         </>
         

@@ -1,0 +1,104 @@
+.main-our-team{
+    background-color: #374254;
+    padding: 50px;
+    /* background-image: url(../img/trainer.png); */
+    position: relative;
+}
+.main-our-team::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #374254;
+    top: 0;
+    left: 0;
+}
+.our-team-slider .swiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-our-team h5{
+color: #FF9800;
+font-weight: bold;
+letter-spacing: 2px;
+z-index: 1;
+position: relative;
+}
+.main-our-team h3{
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.team-card {
+    background-color:#374254;
+    
+}
+
+.team-card .team-img {
+    width: 100%;
+    height: 250px;
+ 
+}
+
+.team-card .coach-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.team-card .coach-info h3 {
+    color: white;
+    border: 2px solid #F8B20F;
+    padding: 10px;
+    border-radius: 5px;
+}
+.team-card{
+    margin: 0.5rem;
+    background-size: cover;
+
+    cursor: pointer;
+    border: 1.5px solid #F8B20F;
+    border-radius: 5px;
+}
+.team-card p{
+    font-size: 14px;
+    color: #dcd5d5;
+}
+.team-card button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #F8B20F;
+    color: #374254;
+    border: none;
+    border-radius: 5px;
+}
+
+.slick-prev:before, .slick-next:before  {
+    color: #374254 !important;
+    font-size: 25px;
+    position: absolute;
+    width: 31px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F8B20F ;
+    /* display: none; */
+}
+.slick-prev:before {
+    margin-left: -9px;
+    
+}
+ 
+
+.slick-dots li button:before{
+    color: #F8B20F !important;
+    font-size: 10px;
+}

@@ -6,7 +6,11 @@
     position: sticky;
     
 }
-
+@media (width < 600px) {
+    .nav{
+        display: none !important;
+    }
+}
 .nav ul li {
 margin-left:4rem ;
     color: white;

@@ -1,7 +1,7 @@
 /* banner */
 .banner{
-    background-image:url(./img/download_11zon.copy.png) ;
-    min-height: 80vh;
+    background-image:url(./img/banner.png) ;
+    height: 90dvh;
     width: 100dvw;
     /* background-image: linear-gradient(rgba(376, 255, 300, -6.5), rgba(255, 255, 255, 0.5)), url(./img/download_11zon.copy.png);    */
     background-size: cover;
@@ -90,7 +90,3 @@
 .orangcolor{
     color: #F8B20F;
 }
-/* .sectiontwo .experience > div :nth-child(2){
-    color: #F8B20F;
-    font-weight: 700;
-} */
