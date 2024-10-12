@@ -6,8 +6,8 @@ function Home() {
     return (
         <>
         <Banner/>
-        <SectionOne/>
         <SectionTwo/>
+        <SectionOne/>
         <TeamSlider/>
         <div>home page</div>
         </>

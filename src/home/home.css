@@ -7,19 +7,27 @@
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
-    top: -66px;
+    top: 0px;
     position: relative;
 }
-
+@media (width < 600px) {
+    .banner{
+        height: 60dvh;
+    }
+}
 .bannertext :last-child{
  color:#F8B20F
 }
 /* banner */
 
 /* sectionone */
+.sectionone{
+    padding: 60px !important;
+}
 .sectionone img{
     height: 300px;
     width: 60dvw;
+
 }
 .sectionone .ready :first-child ,.sectionone .ready :last-child{
     position: relative;
@@ -66,6 +74,7 @@
     background-color: #f4f3f2;
     z-index: -1;
     color: #374254;
+    padding: 100px !important;
 }
 .experience{
     border: 7px solid #F8B20F;

@@ -1,7 +1,7 @@
 import "./home.css"
 function SectionTwo(){
     return(
-        <div className="sectiontwo px-4 mt-5 py-5 ">
+        <div className="sectiontwo px-4 p-5 py-5 ">
             <div className="row d-flex justify-content-center align-items-center gap-4" >
                 <div className="experience col-lg-4 col-md-6 col-sm-12  py-4  ">
                     <div className="d-flex justify-content-center align-items-center">

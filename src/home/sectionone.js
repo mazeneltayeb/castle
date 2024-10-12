@@ -3,7 +3,7 @@ import ControlledCarousel from "./carousel"
 
 function SectionOne(){
     return(
-        <div className="sectionone px-4 mt-2">
+        <div className="sectionone px-4 mt-4 p-5">
             <div className="row row-gap-3">
                 <div className="col-lg-3 col-md-3 text-center text-lg-start">
                     <div className="justify-content-center align-items-center flex-column">
